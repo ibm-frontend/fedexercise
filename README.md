@@ -1,4 +1,4 @@
-# Flickr Excercise
+# Flickr Exercise
 
 ###Task: 
 
