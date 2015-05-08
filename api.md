@@ -131,7 +131,8 @@ Note. API_KEY & USER_ID are placeholders. The API key will be provided to you, o
 var sampleImgObj = { "id": "11738172576", "owner": "12218676@N04", "secret": "37d0aeb353", "server": "3803", "farm": 4, "title": "_IGP1164", "ispublic": 1, "isfriend": 0, "isfamily": 0 };
 var url = 'http://farm' + sampleImgObj.farm + '.staticflickr.com' + sampleImgObj.server + '/' + sampleImgObj.id + '_' + sampleImgObj.secret + '_b.jpg';
 
-// url = http://farm4.staticflickr.com/3803/11738172576_37d0aeb353_b.jpg```
+// url = http://farm4.staticflickr.com/3803/11738172576_37d0aeb353_b.jpg
+```
 
 Note. The '_b' part of the image name specifies which size of the image you want. More information is provided in this [documentation](https://www.flickr.com/services/api/misc.urls.html).
 
