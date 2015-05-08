@@ -1,21 +1,17 @@
-# Flickr Exercise
+# flickr fed-exercise
 
-###Task: 
+### Task
+Build a flickr web-app that fetches images from IBM's Flickr account via the Flickr API ([API details](https://github.com/ibmfrontend/fedexercise/blob/master/API_DETAILS.md)). You are welcome to use any technology to build it and design the layout in any way that you see fit.
 
-Build a flickr app that fetches images from IBM's Flickr account using the API below and displays them. You are welcome to use any technology
-to build it and design the layout in anyway that you see fit. An example of design is posted below but is in no way prescriptive on how it must look.
-Once you have created your app, you would place it in your repository and provide a link to it.
+An example design is posted below but is in no way prescriptive on how it must look.
 
-What we are looking for:
-
- - Choice of design, layout and intuitiveness of interface.
-
- - Responsiveness across various form factors. For instance, mobile, tablet and desktop
-
- - Page load times and performance.
-
+### Criteria
+ - Choice of design, layout and intuitiveness of interface
+ - Responsiveness across various form factors
+ - Page load times and performance
  - Browser compatibility on current release, current release-1 versions of browsers
+ - Sorting and or filter options available to user
+ - Use of source control to store code
 
- - Sorting and or filter options.
-
- - Use of source control to store code.
+### Submission Requirements
+Send us a link to your repo. We must be able to view your source code and be able to see a running version.
