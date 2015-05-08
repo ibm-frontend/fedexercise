@@ -1,7 +1,7 @@
 # flickr fed-exercise
 
 ### Task
-Build a flickr web-app that fetches images from IBM's Flickr account via the Flickr API ([API details](https://github.com/ibmfrontend/fedexercise/blob/master/api.md)). You are welcome to use any technology to build it and design the layout in any way that you see fit.
+Build a flickr web-app that fetches images from IBM's Flickr account via the Flickr API ([API details](https://github.com/ibmfrontend/fedexercise/blob/master/API_DETAILS.md)). You are welcome to use any technology to build it and design the layout in any way that you see fit.
 
 An example design is posted below but is in no way prescriptive on how it must look.
 
