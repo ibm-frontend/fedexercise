@@ -5,7 +5,7 @@ Build a flickr web-app that fetches images from IBM's Flickr account via the Fli
 
 ![Layout](https://github.com/ibmfrontend/fedexercise/blob/master/assets/fedexercisewf.png)
 
-An example design is posted below but is in no way prescriptive on how it must look.
+This example design is in no way prescriptive on how it must look.
 
 ### Criteria
  - Choice of design, layout and intuitiveness of interface
