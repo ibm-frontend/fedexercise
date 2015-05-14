@@ -2,7 +2,7 @@
 More detailed Flickr API documentation is available [here](https://www.flickr.com/services/api/), however the following information should get you started for the exercise.
 
 ## Required API key & ID
-- Flickr API Key: `a5e95177da353f58113fd60296e1d250`
+- Flickr API Key: `a5e95177da353f58113fd60296e1d250` (Note. **You an also use your own key ;) **)
 - IBM Toronto Lab Flickr user id: `132365033@N08`
 
 ## Retrieve public photos
