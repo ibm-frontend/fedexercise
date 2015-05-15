@@ -17,3 +17,6 @@ Build a flickr web-app that fetches images from IBM's Flickr account via the Fli
 
 ### Submission Requirements
 Send us a link to your repo. We must be able to view your source code and be able to see a running version.
+
+### Questions?
+If there's anything that's unclear or if you just have a general question, we're just an email away! :)

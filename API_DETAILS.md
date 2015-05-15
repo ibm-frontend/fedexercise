@@ -1,7 +1,13 @@
 # Quick API Guide
 More detailed Flickr API documentation is available [here](https://www.flickr.com/services/api/), however the following information should get you started for the exercise.
 
-## Required API key & ID
+### Outline
+- [Required info](#required-api-key-&-id)
+- [Retrieve public photos](#retrieve-public-photos)
+- [Constructing image url](#constructing-image-url)
+- [Questions](#questions?)
+
+## Required Information
 - Flickr API Key: `a5e95177da353f58113fd60296e1d250` (**Note**. You an also use your own key**)
 - IBM Toronto Lab Flickr user id: `132365033@N08`
 
@@ -129,7 +135,7 @@ Note. API_KEY & USER_ID are placeholders. The API key will be provided to you, o
 
 [API Documentation](https://www.flickr.com/services/api/flickr.people.getPublicPhotos.htm)
 
-## Constructing an image url
+## Constructing image url
 The following formats can be used to construct an image url.
 ```javascript
 //  Formats:
@@ -147,6 +153,12 @@ var urlLarge = 'https://farm' + sampleImgObj.farm + '.staticflickr.com/' + sampl
 //(1024px)  urlLarge = https://farm4.staticflickr.com/3803/11738172576_37d0aeb353_b.jpg
 ```
 
-**Note.** For `urlLarge` we are used `_b` to grab a larger image url for the photo. However, this does not mean all photos are available in that size. Some photos are only available in certain sizes. [**flickr.photos.getSizes**](https://www.flickr.com/services/api/flickr.photos.getSizes.html) can be used to retrieve available sizes for a photo.
+**Note.** For `urlLarge` we used `_b` to grab a larger image url for the photo. However, this does not mean all photos are available in that size. Some photos are only available in certain sizes. [**flickr.photos.getSizes**](https://www.flickr.com/services/api/flickr.photos.getSizes.html) can be used to retrieve available sizes for a photo.
 
 For more information please take a look at the official [documentation](https://www.flickr.com/services/api/misc.urls.html).
+
+## Questions?
+As always, if there's anything that's unclear or if you just have a general question, we're just an email away! :)
+
+
+[Back to top.](#quick-api-guide)
