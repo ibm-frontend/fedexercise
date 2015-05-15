@@ -130,15 +130,23 @@ Note. API_KEY & USER_ID are placeholders. The API key will be provided to you, o
 [API Documentation](https://www.flickr.com/services/api/flickr.people.getPublicPhotos.htm)
 
 ## Constructing an image url
-
+The following formats can be used to construct an image url.
 ```javascript
-var sampleImgObj = { "id": "11738172576", "owner": "12218676@N04", "secret": "37d0aeb353", "server": "3803", "farm": 4, "title": "_IGP1164", "ispublic": 1, "isfriend": 0, "isfamily": 0 };
-var url = 'http://farm' + sampleImgObj.farm + '.staticflickr.com' + sampleImgObj.server + '/' + sampleImgObj.id + '_' + sampleImgObj.secret + '_b.jpg';
+//  Formats:
+//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
+//	or
+//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_[mstzb].jpg
+//	or
+//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|png)
 
-// url = http://farm4.staticflickr.com/3803/11738172576_37d0aeb353_b.jpg
+var sampleImgObj = { "id": "11738172576", "owner": "12218676@N04", "secret": "37d0aeb353", "server": "3803", "farm": 4, "title": "_IGP1164", "ispublic": 1, "isfriend": 0, "isfamily": 0 };
+var urlDefault = 'https://farm' + sampleImgObj.farm + '.staticflickr.com/' + sampleImgObj.server + '/' + sampleImgObj.id + '_' + sampleImgObj.secret + '.jpg';
+var urlLarge = 'https://farm' + sampleImgObj.farm + '.staticflickr.com/' + sampleImgObj.server + '/' + sampleImgObj.id + '_' + sampleImgObj.secret + '_b.jpg';
+
+//(500px)   urlDefault = https://farm4.staticflickr.com/3803/11738172576_37d0aeb353.jpg
+//(1024px)  urlLarge = https://farm4.staticflickr.com/3803/11738172576_37d0aeb353_b.jpg
 ```
 
-Note. The '_b' part of the image name specifies which size of the image you want. More information is provided in this [documentation](https://www.flickr.com/services/api/misc.urls.html).
+**Note.** For `urlLarge` we are used `_b` to grab a larger image url for the photo. However, this does not mean all photos are available in that size. Some photos are only available in certain sizes. [**flickr.photos.getSizes**](https://www.flickr.com/services/api/flickr.photos.getSizes.html) can be used to retrieve available sizes for a photo.
 
-## Gotchas
-- Not all images are available in all sizes, so you can not hardcode `_b.jpg` to the url. You should look up and use the [**flickr.photos.getSizes**](https://www.flickr.com/services/api/flickr.photos.getSizes.html) method on an image object in order to safely choose an available image size.
+For more information please take a look at the official [documentation](https://www.flickr.com/services/api/misc.urls.html).
