@@ -9,7 +9,7 @@ More detailed Flickr API documentation is available [here](https://www.flickr.co
 
 ## Required Information
 - Flickr API Key: `a5e95177da353f58113fd60296e1d250` (you an also use your own key)
-- IBM Toronto Lab Flickr user id: `132365033@N08`
+- Nasa's user id: `24662369@N07`
 
 ## Retrieve public photos
 Endpoint: `https://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos`
