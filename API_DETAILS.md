@@ -8,7 +8,7 @@ More detailed Flickr API documentation is available [here](https://www.flickr.co
 - [Questions](#questions)
 
 ## Required Information
-- Flickr API Key: `a5e95177da353f58113fd60296e1d250` (you an also use your own key)
+- Flickr API Key: `a5e95177da353f58113fd60296e1d250` (you can also use your own key)
 - Nasa's user id: `24662369@N07`
 
 ## Retrieve public photos
